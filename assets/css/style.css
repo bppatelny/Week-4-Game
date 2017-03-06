@@ -1,0 +1,107 @@
+body {
+    background-color: lightblue;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+
+h1{
+	background-color: orange;
+	color: white;
+	font-size: 40px;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: beige;
+    color: green;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+    border: solid 1px #ddd;
+}
+
+#randomNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	width: 10%;
+	padding: 50px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: turquoise;
+	display: inline-block;
+	padding: 27px;
+	padding-right: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
+}
+
+#Box {
+	background: turquoise;
+	display: inline;
+	padding: 20px;
+	
+}
+
+#totalScore {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-top:10px;
+}
+
+
+#crystals {
+	margin-top: 20px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 85px;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+.clear {
+	float:left;
+	clear:both;
+}
+
+.stone {
+	display:inline;
+}
+
+.center {
+	margin:0 auto;
+	width: 80%;
+}
+
+
+header {
+	text-align:center;
+}
+
+
+
+
