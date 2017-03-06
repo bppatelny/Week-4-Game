@@ -47,7 +47,7 @@ $(document).ready(function() {
 		    }
 		});
 		
-		// Handle Red Stone Click Event
+		// Handle Blue Stone Click Event
 		$('#blueCrystal').click(function() {
 			counter = counter + blueValue;
 			$('#myScore').text(counter);
@@ -66,6 +66,7 @@ $(document).ready(function() {
 		    }
 		});
 
+		// Handle Yellow Stone Click Event
 		$('#yellowCrystal').click(function() {
 			counter = counter + yellowValue;
 			$('#myScore').text(counter);
@@ -83,7 +84,8 @@ $(document).ready(function() {
 		        newGame();
 		    }
 		});
-		
+
+		// Handle Green Stone Click Event		
 		$('#greenCrystal').click(function() {
 			counter = counter + greenValue;
 			$('#myScore').text(counter);
